@@ -6,7 +6,7 @@ gem "sinatra", "~> 2.0.0" # updated for compatibility w/ "rack"
 gem "sinatra-contrib"
 gem "erubis"
 
-ruby "2.6.0"
+ruby "3.1.0" # updated for compatibility w/ Heroku
 group :production do
   gem "puma", "~> 4.3.8" # updated due to GitHub alert
 end

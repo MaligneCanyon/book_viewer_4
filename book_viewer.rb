@@ -1,6 +1,6 @@
 require "tilt/erubis" # for ERB purposes
 require "sinatra"
-require "sinatra/reloader" if development?
+# require "sinatra/reloader" if development? # reloader now included in sinatra-contrib
 
 before do
   @contents = File.readlines("data/toc.txt")
